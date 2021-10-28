@@ -1,16 +1,15 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
 
 android {
     compileSdk 31
-
     defaultConfig {
         minSdk 22
         targetSdk 31
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
